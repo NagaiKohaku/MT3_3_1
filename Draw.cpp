@@ -746,10 +746,6 @@ void Draw::DrawArm(const Vector3(&translates)[3], const Vector3(&rotates)[3], co
 		WHITE
 	);
 
-	ImGui::InputFloat3("shoulderTransform", &shoulderTransform.x);
-
-	ImGui::InputFloat("shoulderWorld", &shoulderWorld.x);
-
 	DrawSphere(shoulderSphere, RED);
 
 	DrawSphere(elbowSphere, GREEN);
